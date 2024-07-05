@@ -5,11 +5,16 @@
 
 body {
     margin: 0;
+    background-color: black;
+}
+
+.logo {
+    color: #fff;
 }
 
 .menu {
     width: 1170px;
-    margin: 0 auto;
+    margin: 0px 20px;
 }
 
 .menu_inner {
@@ -35,18 +40,19 @@ img {
     color: rgb(23, 26, 25);
     text-decoration: none;
     padding: 10px 20px;
+    color: #fff;
 }
 
 .nav li a:hover {
-    background-color: rgb(86, 97, 96);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #000000;
     border-radius: 5px;
 }
 
 .page {
-    background-image: url(../img/fon_cows.png);
+    background-image: url(../img/main\ 1.png);
     margin-bottom: 5px;
-    padding-bottom: 600px;
+    padding-bottom: 350px;
 }
 
 .page_head {
@@ -54,6 +60,7 @@ img {
     font-weight: bold;
     font-size: 60px;
     padding: 50px 50px 0;
+    color: #fff;
 }
 
 .page_text {
@@ -61,6 +68,7 @@ img {
     width: 500px;
     padding-left: 50px;
     padding-top: 30px;
+    color:#fff;
 }
 
 .container2 {
@@ -69,7 +77,7 @@ img {
     margin-bottom: 90px;
 }
 
-.skills_inner {
+.concerts_inner {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -77,29 +85,47 @@ img {
 }
 
 
-h1 {
+.concerts_soon {
     padding-top: 30px;
     padding-left: 160px;
     text-transform: uppercase;
     font-size: 40px;
+    color:#fff
 }
 
-.skills_text {
+.concerts_city {
     padding-top: 100px;
-    font-size: 18px;
+    font-size: 28px;
     font-weight: bold;
-    color: rgb(58, 59, 59);
-    background-color: rgb(228, 228, 228);
+    color: rgb(255, 255, 255);
+    padding: 10px 15px;
+
+}
+
+.concerts_place {
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(180, 178, 178);
+    padding: 10px 15px;
+}
+
+.concerts_days {
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(180, 178, 178);
+    padding: 10px 15px;
+}
+
+.concerts_price {
+    padding-top: 100px;
+    font-size: 20px;
+    font-weight: normal;
+    color: rgb(255, 255, 255);
     padding: 10px 15px;
     border-radius: 10px;
-
-}
-
-i.fa {
-    padding-bottom: 10px;
-    padding-top: 30px;
-    font-size: 145px;
-    color: rgb(76, 77, 61);
+    cursor: pointer;
 }
 
 span {
@@ -107,37 +133,32 @@ span {
     font-size: 60px;
 }
 
-.midle_line {
-    background-color: rgb(87, 88, 59);
+.music {
+    background-color: rgb(198, 198, 198);
     margin-bottom: 5px
+}
+
+.listen_album {
+padding-top: 30px;
+padding-left: 160px;
+text-transform: uppercase;
+font-size: 40px;
+color:#000000
 }
 
 .container3 {
     width: 1179px;
+    height: 250px;
     margin: 0 auto;
 }
 
-.line_item {
+.music_inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 180px;
 }
 
-.line_text {
-    width: 650px;
-    font-size: 20px;
-    color: rgb(194, 194, 194)
-}
-
-.line_push {
-    font-size: 30px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(254, 255, 254);
-    padding: 30px 30px;
-    border-radius: 10px;
-    cursor: pointer;
-}
 
 .container4 {
     width: 900px;
