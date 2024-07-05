@@ -206,7 +206,7 @@ p {
 .cards_push:hover {
     background-color: rgb(86, 97, 96);
     color: #fff;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
 }
 
